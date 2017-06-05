@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.tags{
+  width: 300px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: pink;
+}
+.tag-list{
+  list-style: none;
+}
+.tag-list--item{
+  font-size: 25px;
+}
+.item--remove{
+  width: 20px;
+  cursor: pointer;
+}
+.item--value{
+  padding: 10px;
+}
